@@ -76,4 +76,14 @@ export JAVA_HOME=/usr/java/jdk1.8.0_40/
 export PATH=$PATH:$JAVA_HOME
 
 
+無密碼登入
+ssh-keygen -t dsa -P '' -f ~/.ssh/id_dsa
+
+cat ~/.ssh/id_dsa.pub >> ~/.ssh/authorized_keys
+
+chmod 700 ~/.ssh
+
+chmod 600  ~/.ssh/authorized_keys
+
+
 
