@@ -72,6 +72,8 @@ export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_PREFIX/lib/native
 export HADOOP_OPTS="-Djava.library.path=$HADOOP_PREFIX/lib"
 export HADOOP_CONF_DIR=$HADOOP_PREFIX/etc/hadoop 
 export PATH=$PATH:$HADOOP_PREFIX/bin:$HADOOP_PREFIX/sbin
+export JAVA_HOME=/usr/java/jdk1.8.0_40/
+export PATH=$PATH:$JAVA_HOME
 
 
 
