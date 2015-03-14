@@ -91,4 +91,8 @@ chmod 700 ~/.ssh
 chmod 600  ~/.ssh/authorized_keys
 
 
+Centos 6.6
+
+https://drive.google.com/a/largitdata.com/file/d/0BwcmldsH2om-T3dQS2V3QklmNHM/view?usp=sharing
+
 
