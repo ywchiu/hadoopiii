@@ -115,7 +115,7 @@ java jar WordCount.jar WordCount /data/input.txt /out
 
 ==========================
 
-<property>
-        <name>yarn.nodemanager.aux-services</name>
-        <value>mapreduce_shuffle</value>
-</property>
+	<property>
+			<name>yarn.nodemanager.aux-services</name>
+			<value>mapreduce_shuffle</value>
+	</property>
