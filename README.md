@@ -81,7 +81,7 @@ AWS Keypair Tutorial:
 https://github.com/ywchiu/rhadoopcourse
 
 
-無密碼登入
+# 無密碼登入
 ssh-keygen -t dsa -P '' -f ~/.ssh/id_dsa
 
 cat ~/.ssh/id_dsa.pub >> ~/.ssh/authorized_keys
@@ -91,12 +91,12 @@ chmod 700 ~/.ssh
 chmod 600  ~/.ssh/authorized_keys
 
 
-Centos 6.6
+# Centos 6.6
 
 https://drive.google.com/a/largitdata.com/file/d/0BwcmldsH2om-T3dQS2V3QklmNHM/view?usp=sharing
 
 
-在Linux 下包裝jar 檔
+# 在Linux 下包裝jar 檔
 
 export CLASSPATH="/usr/local/hadoop/share/hadoop/common/hadoop-common-2.5.2.jar:/usr/local/hadoop/share/hadoop/common/lib/commons-collections-3.2.1.jar:/usr/local/hadoop/share/hadoop/common/lib/commons-configuration-1.6.jar:/usr/local/hadoop/share/hadoop/common/lib/commons-lang-2.6.jar:/usr/local/hadoop/share/hadoop/common/lib/commons-logging-1.1.3.jar:/usr/local/hadoop/share/hadoop/common/lib/log4j-1.2.17.jar:/usr/local/hadoop/share/hadoop/common/lib/slf4j-api-1.7.5.jar:/usr/local/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.5.jar:/usr/local/hadoop/share/hadoop/common/lib/guava-11.0.2.jar:/usr/local/hadoop/share/hadoop/common/lib/hadoop-auth-2.5.2.jar:/usr/local/hadoop/share/hadoop/hdfs/hadoop-hdfs-2.5.2.jar:/usr/local/hadoop/share/hadoop/common/lib/commons-cli-1.2.jar:/usr/local/hadoop/share/hadoop/common/lib/protobuf-java-2.5.0.jar:/usr/local/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.5.2.jar:$CLASSPATH"
 
@@ -111,7 +111,9 @@ hadoop fs -put input.txt /data
 java jar WordCount.jar WordCount /data/input.txt /out
 
 
-更改yarn-site.xml
+# 更改yarn-site.xml
+
+==========================
 
 <property>
         <name>yarn.nodemanager.aux-services</name>
