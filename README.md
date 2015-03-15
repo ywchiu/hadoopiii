@@ -105,7 +105,7 @@ https://drive.google.com/a/largitdata.com/file/d/0BwcmldsH2om-T3dQS2V3QklmNHM/vi
 
 - hadoop fs -put input.txt /data
 
-- java jar WordCount.jar WordCount /data/input.txt /out
+- hadoop jar WordCount.jar WordCount /data/input.txt /out
 
 
 # 更改yarn-site.xml
