@@ -6,9 +6,6 @@ https://www.slideshare.net/secret/fwSEq9KvkbEwjq
 
 Hadoop EC2 Service
 
-Username: ec2-user
-password: hadoopiii
-
 1 52.11.14.35
 
 2 52.11.32.121
