@@ -98,17 +98,17 @@ https://drive.google.com/a/largitdata.com/file/d/0BwcmldsH2om-T3dQS2V3QklmNHM/vi
 
 # 在Linux 下包裝jar 檔
 
-export CLASSPATH="/usr/local/hadoop/share/hadoop/common/hadoop-common-2.5.2.jar:/usr/local/hadoop/share/hadoop/common/lib/commons-collections-3.2.1.jar:/usr/local/hadoop/share/hadoop/common/lib/commons-configuration-1.6.jar:/usr/local/hadoop/share/hadoop/common/lib/commons-lang-2.6.jar:/usr/local/hadoop/share/hadoop/common/lib/commons-logging-1.1.3.jar:/usr/local/hadoop/share/hadoop/common/lib/log4j-1.2.17.jar:/usr/local/hadoop/share/hadoop/common/lib/slf4j-api-1.7.5.jar:/usr/local/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.5.jar:/usr/local/hadoop/share/hadoop/common/lib/guava-11.0.2.jar:/usr/local/hadoop/share/hadoop/common/lib/hadoop-auth-2.5.2.jar:/usr/local/hadoop/share/hadoop/hdfs/hadoop-hdfs-2.5.2.jar:/usr/local/hadoop/share/hadoop/common/lib/commons-cli-1.2.jar:/usr/local/hadoop/share/hadoop/common/lib/protobuf-java-2.5.0.jar:/usr/local/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.5.2.jar:$CLASSPATH"
+- export CLASSPATH="/usr/local/hadoop/share/hadoop/common/hadoop-common-2.5.2.jar:/usr/local/hadoop/share/hadoop/common/lib/commons-collections-3.2.1.jar:/usr/local/hadoop/share/hadoop/common/lib/commons-configuration-1.6.jar:/usr/local/hadoop/share/hadoop/common/lib/commons-lang-2.6.jar:/usr/local/hadoop/share/hadoop/common/lib/commons-logging-1.1.3.jar:/usr/local/hadoop/share/hadoop/common/lib/log4j-1.2.17.jar:/usr/local/hadoop/share/hadoop/common/lib/slf4j-api-1.7.5.jar:/usr/local/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.5.jar:/usr/local/hadoop/share/hadoop/common/lib/guava-11.0.2.jar:/usr/local/hadoop/share/hadoop/common/lib/hadoop-auth-2.5.2.jar:/usr/local/hadoop/share/hadoop/hdfs/hadoop-hdfs-2.5.2.jar:/usr/local/hadoop/share/hadoop/common/lib/commons-cli-1.2.jar:/usr/local/hadoop/share/hadoop/common/lib/protobuf-java-2.5.0.jar:/usr/local/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.5.2.jar:$CLASSPATH"
 
-javac WordCount.java
+- javac WordCount.java
 
-jar -cvf WordCount.jar ./WordCount*.class
+- jar -cvf WordCount.jar ./WordCount*.class
 
-hadoop fs -mkdir /data
+- hadoop fs -mkdir /data
 
-hadoop fs -put input.txt /data
+- hadoop fs -put input.txt /data
 
-java jar WordCount.jar WordCount /data/input.txt /out
+- java jar WordCount.jar WordCount /data/input.txt /out
 
 
 # 更改yarn-site.xml
