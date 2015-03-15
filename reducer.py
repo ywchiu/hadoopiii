@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import sys
 current_word = None
 current_count = 0
