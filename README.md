@@ -74,11 +74,6 @@ export PATH=$PATH:$JAVA_HOME
 
 
 
-AWS Keypair Tutorial:
-
-https://github.com/ywchiu/rhadoopcourse
-
-
 # 無密碼登入
 ssh-keygen -t dsa -P '' -f ~/.ssh/id_dsa
 
