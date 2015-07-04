@@ -20,7 +20,7 @@ hadoop	ALL=(ALL)	ALL
 
 - http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
-- rpm -ivh jdk-8u45-linux-x64.rpm
+- sudo rpm -ivh jdk-8u45-linux-x64.rpm
 
 ### ³]©wHadoop
 
