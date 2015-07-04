@@ -22,8 +22,6 @@ hadoop	ALL=(ALL)	ALL
 
 - rpm -ivh jdk-8u45-linux-x64.rpm
 
-
-
 ### 設定Hadoop
 
 - wget http://ftp.twaren.net/Unix/Web/apache/hadoop/common/hadoop-2.6.0/hadoop-2.6.0.tar.gz
@@ -33,12 +31,6 @@ hadoop	ALL=(ALL)	ALL
 
 ### 將Hadoop 2.6.0 搬移到 /usr/local
 - sudo mv ~/hadoop-2.6.0 /usr/local/hadoop
-
-###更改該目錄權限
-- sudo chown -R hadoop:hadoop /usr/local/hadoop
-
-### 切換至Hadoop 使用者
-- sudo su - hadoop
 
 ### 編輯.bashrc
 - $ vim ~/.bashrc
@@ -61,8 +53,9 @@ $ source ~/.bashrc
 - ssh localhost
 
 ### 修改/etc/ssh/sshd_config
+- sudo vi /etc/ssh/sshd_config
 - 將PasswordAuthentication?變更為no
-- service sshd restart
+- sudo service sshd restart
 
 ### 設置無密碼登入
 - ssh-keygen -t dsa -P '' -f ~/.ssh/id_dsa
