@@ -30,7 +30,7 @@ hadoop	ALL=(ALL)	ALL
 
 
 ### ±NHadoop 2.6.0 ·h²¾¨ì /usr/local
-- sudo mv ~/hadoop-2.6.0 /usr/local/hadoop
+- sudo mv hadoop-2.6.0 /usr/local/hadoop
 
 ### ½s¿è.bashrc
 - $ vim ~/.bashrc
