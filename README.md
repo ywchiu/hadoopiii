@@ -16,3 +16,8 @@ https://www.slideshare.net/secret/jAXKRnPCrknokG
 
 - https://www.youtube.com/watch?v=f3CNowSfTms
 
+
+## Java WordCount 操作範例
+
+- https://www.youtube.com/watch?v=h0mFQkqNo5g
+
