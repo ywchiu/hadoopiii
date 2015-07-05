@@ -16,6 +16,12 @@ https://www.slideshare.net/secret/jAXKRnPCrknokG
 
 - https://www.youtube.com/watch?v=f3CNowSfTms
 
+## Fully Distributed
+
+- https://www.youtube.com/watch?v=0CGSSxCCd2E
+
+- http://youtu.be/m60g0AWIcfQ
+
 
 ## Java WordCount 操作範例
 
