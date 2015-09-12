@@ -1,8 +1,12 @@
-# Big Data之處理與分析實務班
+﻿# Big Data之處理與分析實務班
 ==========================
 
 ## Slides:
 https://www.slideshare.net/secret/jAXKRnPCrknokG
+
+## [實際應用] 使用Hadoop 分析 Facebook 打卡資訊
+
+- https://www.youtube.com/watch?v=FQr2nVvkLzc
 
 ## Centos 6.6 檔案下載
 
