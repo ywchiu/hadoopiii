@@ -8,6 +8,10 @@ https://www.slideshare.net/secret/jAXKRnPCrknokG
 
 - https://www.youtube.com/watch?v=FQr2nVvkLzc
 
+sudo yum install python-pip
+
+sudo pip install requests
+
 ## Centos 6.6 檔案下載
 
 - https://drive.google.com/a/largitdata.com/file/d/0BwcmldsH2om-T3dQS2V3QklmNHM/view?usp=sharing
