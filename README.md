@@ -12,6 +12,11 @@ sudo yum install python-pip
 
 sudo pip install requests
 
+
+## Hadoop on cloudera 安裝步驟
+
+- https://www.youtube.com/watch?v=rCm7LS2mivA
+
 ## Centos 6.6 檔案下載
 
 - https://drive.google.com/a/largitdata.com/file/d/0BwcmldsH2om-T3dQS2V3QklmNHM/view?usp=sharing
